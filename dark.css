@@ -1,0 +1,104 @@
+body {
+    font-family: "Rubik", system-ui, sans-serif;
+    line-height: 1.6;
+    max-width: 900px;
+    margin: auto;
+    padding: 5px;
+    background-color: #181818;
+    color: #F2E7AE;
+    font-size: 14px;
+}
+
+h1 {
+    color: #F2C46D;
+    border-bottom: 2px solid #F2C46D;
+    padding-bottom: 8px;
+    margin-top: 0;
+}
+
+h2 {
+    color: #F2C46D;
+    border-bottom: 2px solid F2B544;
+    padding-top: 8px;
+}
+
+h3 {
+    color: #F28B30;
+    margin-top: 28px;
+}
+
+strong {
+    color: #FFD581;
+}
+
+a {
+    color: #FFD581;
+}
+
+a:hover {
+    color: #FFA552;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    border: 1px solid #733E1F;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #733E1F;
+    color: #FFD581;
+}
+
+blockquote {
+    border-left: 4px solid #FFA552;
+    margin-left: 0;
+    padding: 10px 15px;
+    color: #F2E7AE;
+    background: #2E1109;
+}
+
+hr {
+    margin: 30px 0;
+    border: 0;
+    border-top: 1px solid #733E1F;
+}
+
+.arrow {
+    font-family: monospace;
+    color: #FFA552;
+}
+
+.stats {
+    font-style: italic;
+    color: #FFA552;
+}
+
+.ability {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 30px;
+}
+
+.ability-icon {
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    border: 1px solid #733E1F;
+}
+
+.combo-video {
+    display: block;
+    width: 100%;
+    margin: 12px 0 20px;
+    background: #000;
+    border: 1px solid #F2C46D;
+}
