@@ -18,13 +18,23 @@ h1 {
 
 h2 {
     color: #F2C46D;
-    border-bottom: 2px solid F2B544;
-    padding-top: 8px;
+    /* border-bottom: 2px solid #F2C46D; */
+    padding-top: 12px;
+    font-size: 28px;
+    border-top: 1px solid #F2C46D;
+    margin-bottom: 8px;
 }
 
 h3 {
     color: #F28B30;
     margin-top: 28px;
+    font-size: 20px;
+}
+
+h3:not(.ability):not(.plain) {
+    padding-top: 28px;
+    border-top: 1px solid #F2C46D;
+    text-align: center;
 }
 
 strong {
@@ -59,6 +69,7 @@ th {
 
 blockquote {
     border-left: 4px solid #FFA552;
+    width: 100%;
     margin-left: 0;
     padding: 10px 15px;
     color: #F2E7AE;
@@ -73,7 +84,7 @@ hr {
 
 .arrow {
     font-family: monospace;
-    color: #FFA552;
+    color: #F2E7AE;
 }
 
 .stats {
@@ -93,6 +104,32 @@ hr {
     height: 48px;
     flex-shrink: 0;
     border: 1px solid #733E1F;
+}
+
+.combo-sequence {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 8px 0 16px;
+}
+
+.combo-sequence .arrow {
+    font-size: 2em;
+}
+
+.combo-text {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.15;
+    color: #F2E7AE;
+    flex-shrink: 0;
 }
 
 .combo-video {
