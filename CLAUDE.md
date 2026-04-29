@@ -18,7 +18,3 @@ No build step. Open `index.html` directly in a browser or serve with any static 
 ```
 python3 -m http.server 8000
 ```
-
-## Content Status
-
-- Video embeds are placeholder text, not yet linked to the MP4 files in `videos/`.

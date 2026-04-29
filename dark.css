@@ -11,7 +11,8 @@ body {
 
 h1 {
     color: #F2C46D;
-    border-bottom: 2px solid #F2C46D;
+    /* border-bottom: 1px solid #F2C46D; */
+    font-size: 34px;
     padding-bottom: 8px;
     padding-top: 8px;
 }
@@ -140,4 +141,34 @@ hr {
     margin: 12px 0 20px;
     background: #000;
     border: 1px solid #F2C46D;
+}
+
+.difficulty {
+    display: inline-block;
+    padding: 1px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    border: 1px solid;
+    line-height: 1.5;
+}
+
+.difficulty.easy {
+    background-color: #2A3D1F;
+    color: #A8C77A;
+    border-color: #4F6B30;
+}
+
+.difficulty.medium {
+    background-color: #4D3A1A;
+    color: #D9A85A;
+    border-color: #8B6B30;
+}
+
+.difficulty.hard {
+    background-color: #4D1F18;
+    color: #C97A6A;
+    border-color: #8B3525;
 }
