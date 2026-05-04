@@ -153,6 +153,12 @@ hr {
     letter-spacing: 0.4px;
     border: 1px solid;
     line-height: 1.5;
+    vertical-align: middle;
+}
+
+h3 .difficulty {
+    margin-left: 12px;
+    transform: translateY(-2px);
 }
 
 .difficulty.easy {
